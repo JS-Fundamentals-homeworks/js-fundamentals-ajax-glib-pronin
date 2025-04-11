@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
 
   
-  await page.goto('http://127.0.0.1:5500/index.html');
+  await page.goto('http://127.0.0.1:5500/js-fundamentals-ajax-glib-pronin/index.html');
 
 
   const userName = 'Leanne Graham'; 

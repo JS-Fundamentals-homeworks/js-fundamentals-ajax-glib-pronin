@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 async function checkUsersDisplayed() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('http://127.0.0.1:5500/'); 
+  await page.goto('http://127.0.0.1:5500/js-fundamentals-ajax-glib-pronin/index.html'); 
 
   
   const userList = await page.$('.usersList');
